@@ -6,7 +6,7 @@ Using [Vue3](https://v3.vuejs.org/) [Vite](https://vitejs.dev/) [WindiCSS](https
 
 Including the new features of Vue3 and Composition API
 
-![](https://imgs-1257448213.file.myqcloud.com/%E6%88%AA%E5%B1%8F2021-09-20%20%E4%B8%8B%E5%8D%883.39.14.png)
+![](imgs/screenshot.png)
 
 ## Project setup
 ```
