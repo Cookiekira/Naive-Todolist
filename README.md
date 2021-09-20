@@ -1,21 +1,12 @@
-# Vue 3 + Typescript + Vite + WindiCSS
+# A reactive Todolist 
 
-This template should help get you started developing with Vue 3 Typescript and WindiCSS in Vite.
+Inspired by [vuejs-examples](https://github.com/zxuqian/vuejs-examples)
 
-This starter template also includes:
+Using [Vue3](https://v3.vuejs.org/) [Vite](https://vitejs.dev/) [WindiCSS](https://windicss.org/) [Naive-UI](https://www.naiveui.com/zh-CN/os-theme) 
 
-- [Vue Router 4.x](https://github.com/vuejs/vue-router-next)
-- [Vuex 4.x ](https://next.vuex.vuejs.org/)
+Including the new features of Vue3 and Composition API
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-
-- [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/Cookiekira/vite-vue3-windi-starter)
-
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+![](https://imgs-1257448213.file.myqcloud.com/%E6%88%AA%E5%B1%8F2021-09-20%20%E4%B8%8B%E5%8D%883.39.14.png)
 
 ## Project setup
 ```
@@ -39,3 +30,9 @@ pnpm run lint
 
 ### Customize configuration
 See [Configuring Vite](https://vitejs.dev/config/).
+
+
+
+## License
+
+[MIT license](https://opensource.org/licenses/MIT)
