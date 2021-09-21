@@ -7,9 +7,9 @@
       <template #header>
         <n-h1 prefix="bar">Naive Todolist</n-h1>
       </template>
-      <TodoAdd @add-todo="addTodo" :tid="todos?.length"></TodoAdd>
+      <TodoAdd @add-todo="addTodo"></TodoAdd>
       <TodoFilter @change-filter="filter = $event"></TodoFilter>
-      <TodoList :todo-item="filteredTodos"></TodoList>
+      <TodoList @delete-todo="deleteTodo" :todo-item="filteredTodos"></TodoList>
     </n-card>
   </div>
 </template>
@@ -23,7 +23,7 @@ import TodoAdd from "../components/TodoAdd.vue"
 import useTodos from "../composables/useTodos";
 import useFilteredTodos from "../composables/useFilteredTodos";
 
-const { todos, addTodo } = useTodos();
+const { todos, addTodo, deleteTodo } = useTodos();
 const { filter, filteredTodos } = useFilteredTodos(todos);
 </script>
 

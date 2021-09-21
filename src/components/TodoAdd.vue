@@ -14,14 +14,14 @@ import { ref } from "vue";
 import { NInput, NIcon, NButton } from "naive-ui";
 import { AddOutline } from "@vicons/ionicons5";
 
-const props = defineProps(["tid"]);
+
 const emit = defineEmits(["add-todo"]);
 
 const todoContent = ref("");
 
 const emitAddTodo = () => {
     const todo = {
-        id: props.tid,
+        id: Date.now(),
         content: todoContent.value,
         completed: false,
     };
